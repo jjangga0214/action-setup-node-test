@@ -15,5 +15,7 @@ jobs:
           node-version: 10
 
       - name: Install global package
-        run: |
-          npm install --global verdaccio
+        run: npm install --global verdaccio
+      
+      - name: Print the path of the package
+        run: where verdaccio
