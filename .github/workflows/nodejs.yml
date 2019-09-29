@@ -16,4 +16,4 @@ jobs:
 
       - name: Install global package
         run: |
-          npm install --global public-ip
+          npm install --global verdaccio
